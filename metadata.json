@@ -1,0 +1,8 @@
+{
+  "name": "Remix: StudyGenius AI",
+  "description": "AI-Powered Study Assistant for Assignment Solutions Document Generation, Course Summaries, and Interactive Test Prep.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

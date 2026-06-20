@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Sparkles (Stars) in top right -->
+    <path
+        android:fillColor="#3A3A3A"
+        android:pathData="M78,21 C78,21 79.5,23 81,23.5 C79.5,24 78,26 78,26 C78,26 76.5,24 75,23.5 C76.5,23 78,21 78,21 Z" />
+    <path
+        android:fillColor="#3A3A3A"
+        android:pathData="M87,27 C87,27 88,28.5 89,28.8 C88,29.1 87,30.5 87,30.5 C87,30.5 86,29.1 85,28.8 C86,28.5 87,27 87,27 Z" />
+
+    <!-- Open Book at the bottom -->
+    <!-- Cover/Backing of the book (dark gray/black) -->
+    <path
+        android:fillColor="#1E1E1E"
+        android:pathData="M24,53 C24,53 38,57 54,64 C70,57 84,53 84,53 L84,79 C84,79 70,83 54,90 C38,83 24,79 24,79 Z" />
+        
+    <!-- White pages of the open book -->
+    <!-- Left Page -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M27,51 C27,51 39,54 52,60 L52,83 C39,77 27,74 27,74 Z" />
+    <!-- Right Page -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M56,60 C69,54 81,51 81,51 L81,74 C69,74 56,77 56,83 Z" />
+
+    <!-- Checklist details on Left Page -->
+    <!-- Tick 1 -->
+    <path
+        android:fillColor="#5A5A5A"
+        android:pathData="M31,58 L33,60 L37,56 L38,57 L33,62 L30,59 Z" />
+    <path
+        android:fillColor="#5A5A5A"
+        android:pathData="M40,58 L49,58"
+        android:strokeWidth="1.5"
+        android:strokeColor="#5A5A5A" />
+        
+    <!-- Tick 2 -->
+    <path
+        android:fillColor="#5A5A5A"
+        android:pathData="M31,64 L33,66 L37,62 L38,63 L33,68 L30,65 Z" />
+    <path
+        android:fillColor="#5A5A5A"
+        android:pathData="M40,64 L49,64"
+        android:strokeWidth="1.5"
+        android:strokeColor="#5A5A5A" />
+        
+    <!-- Tick 3 -->
+    <path
+        android:fillColor="#5A5A5A"
+        android:pathData="M31,70 L33,72 L37,68 L38,69 L33,74 L30,71 Z" />
+    <path
+        android:fillColor="#5A5A5A"
+        android:pathData="M40,70 L49,70"
+        android:strokeWidth="1.5"
+        android:strokeColor="#5A5A5A" />
+
+    <!-- Checklist lines on Right Page (just lines for content representing checklist/answers) -->
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M59,58 H76"
+        android:strokeWidth="1.5"
+        android:strokeColor="#A0A0A0" />
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M59,64 H76"
+        android:strokeWidth="1.5"
+        android:strokeColor="#A0A0A0" />
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M59,70 H76"
+        android:strokeWidth="1.5"
+        android:strokeColor="#A0A0A0" />
+
+    <!-- Floating Robot Speech Bubble -->
+    <!-- Speech bubble outer stroke/shadow (slightly offset dark layer) -->
+    <path
+        android:fillColor="#1E1E1E"
+        android:pathData="M34,31 C34,21 44,17 58,17 C72,17 82,21 82,31 C82,41 72,45 58,45 C55,45 51,44 48,43 C42,47 38,49 38,49 L40,43 C36,40 34,36 34,31 Z" />
+    <!-- Speech bubble body (white) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M36,30 C36,21 45,18 58,18 C71,18 80,21 80,30 C80,39 71,43 58,43 C55,43 52,42 49,41 C43,45 40,47 40,47 L42,41 C38,39 36,35 36,30 Z" />
+        
+    <!-- Robot black face circle/bubble inside the speech bubble -->
+    <path
+        android:fillColor="#1E1E1E"
+        android:pathData="M42,30 C42,24 49,21 58,21 C67,21 74,24 74,30 C74,36 67,39 58,39 C49,39 42,36 42,30 Z" />
+        
+    <!-- Robot antenna -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M58,16 L58,21"
+        android:strokeWidth="1.8"
+        android:strokeColor="#FFFFFF" />
+    <!-- Robot antenna tip ball -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M58,14 C59.1,14 60,13.1 60,12 C60,10.9 59.1,10 58,10 C56.9,10 56,10.9 56,12 C56,13.1 56.9,14 58,14 Z" />
+
+    <!-- Robot smiling eyes (white arcs) -->
+    <!-- Left eye (smiling curve) -->
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M49,31 Q52,27 55,31"
+        android:strokeWidth="1.8"
+        android:strokeLineCap="round"
+        android:strokeColor="#FFFFFF" />
+    <!-- Right eye (smiling curve) -->
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M61,31 Q64,27 67,31"
+        android:strokeWidth="1.8"
+        android:strokeLineCap="round"
+        android:strokeColor="#FFFFFF" />
+
+</vector>
